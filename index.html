@@ -1,52 +1,57 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+  <body>
+    <header>
+      <h2>Is Your Birthday Palindrome?</h2>
+    </header>
 
-<body>
-  <h2>Is Your Birthday Palindrome?</h2>
+    <main>
+      <label for="birth-day" class="label-birth-day">
+        <p class="birth-label">Enter Your Birth Date 🎂</p>
+      </label>
+      <input type="date" class="birth-day" />
 
-  <main>
-    <label for="birth-day">
-      <p>Enter Your Birth Date 🎂</p>
-    </label>
-    <input type="date" class="birth-day">
+      <div id="check-btn">
+        <button>Check</button>
+      </div>
 
-    <button id="check-btn">
-      Check
-    </button>
-    <div id="showMessage"></div>
-  </main>
+      <div id="showMessage"></div>
+    </main>
 
-  <footer>
-    <p>© | 2022 | meetShah</p>
+    <footer>
+      <p class="footer-heading">Social Presence</p>
 
-    <ul class="footer-list">
-      <li>
-        <a class="link" href="https://github.com/mshah1098">
-          <img src="/images/github.svg" alt="github" />
-        </a>
-      </li>
+      <ul class="footer-list">
+        <li>
+          <a class="links" href="https://github.com/mshah1098" target="_blank">
+            Github
+          </a>
+        </li>
 
-      <li>
-        <a class="links twitter" href="https://twitter.com/mtsha h92"> <img src="images/twitter.svg" </li>
-    </ul>
-    <p class="privacy-note">Privacy Note: We are not storing your data</p>
+        <li>
+          <a class="links" href="https://twitter.com/mtshah92" target="_blank"
+            >Twitter
+          </a>
+        </li>
 
-  </footer>
-  <script src="script.js"></script>
+        <li>
+          <a
+            class="links"
+            href="https://www.linkedin.com/in/meet-shah-36623052/"
+            target="_blank"
+            >Linkedin
+          </a>
+        </li>
+      </ul>
+    </footer>
 
-  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
