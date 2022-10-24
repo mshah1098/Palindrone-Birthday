@@ -5,7 +5,11 @@ body {
   text-align: center;
   padding: 0;
   margin: 0;
-  background-color: #f5f5f5;
+  background-color: #0ea5e9;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 header {
@@ -17,19 +21,39 @@ main {
   padding: 2rem;
 }
 
+.birth-day {
+  margin: 1rem;
+  border-radius: 0.5rem;
+  border-color: white;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+}
+
 #check-btn {
   padding: 1rem 1rem;
 }
 
+button {
+  border-radius: 0.5rem;
+  border-color: white;
+  width: 100px;
+  height: 50px;
+}
+
 #showMessage {
   font-size: x-large;
-  margin: 2rem 0;
+  margin-bottom: 0.5rem;
 }
 
 footer {
-  margin-top: 9rem;
-  padding: 0rem;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: auto;
+  padding: 0.2rem;
+  gap: 1.5rem;
+  background-color: #7c3aed;
 }
 
 .footer-heading {
@@ -48,4 +72,5 @@ ul {
   padding: 1rem;
   text-decoration: none;
   font-weight: bold;
+  color: white;
 }

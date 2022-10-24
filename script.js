@@ -107,7 +107,7 @@ function checkNextDate(date) {
   }
 
   return {
-    date: day,
+    day: day,
     month: month,
     year: year,
   };
@@ -128,13 +128,6 @@ function checkNextPalindromeDate(date) {
 
   return [ctr, nextDate];
 }
-
-// var date = {
-//   day: 27,
-//   month: 2,
-//   year: 2020,
-// };
-// checkNextPalindromeDate(date);
 
 function clickHandler() {
   var bdayStr = inputDate.value;
