@@ -147,6 +147,8 @@ function clickHandler() {
       showMessage.innerText = `OOPS! it's not palindrome , Next Plaindrome Date is ${nextDate.day}-${nextDate.month}-${nextDate.year},
       you missed by ${ctr} days! `;
     }
+  } else {
+    showMessage.innerText = "Please enter the Birthday";
   }
 }
 
