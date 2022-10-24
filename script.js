@@ -144,7 +144,7 @@ function clickHandler() {
       showMessage.innerText = "Yay ! it's Palindrome.";
     } else {
       var [ctr, nextDate] = checkNextPalindromeDate(date);
-      showMessage.innerText = `OOPS! it's not palindrome , Next Plaindrome Date is ${nextDate.day}-${nextDate.month}-${nextDate.year},
+      showMessage.innerText = `OOPS! it's not palindrome , Next Palindrome Date is ${nextDate.day}-${nextDate.month}-${nextDate.year},
       you missed by ${ctr} days! `;
     }
   } else {
